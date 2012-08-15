@@ -1,0 +1,1247 @@
+2012-07-05 06:02:13 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''nation' WHERE ('name' LIKE '%%') ORDER BY (CASE WHEN 'name' LIKE '' THEN 0 WHEN' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT * FROM '...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT * FROM '...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('SELECT * FROM '...')
+#4 [internal function]: DboSource->query('SELECT * FROM '...')
+#5 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2997): call_user_func_array(Array, Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Model/Post.php(82): Model->query('SELECT * FROM '...')
+#7 /home/sutara/Dropbox/server/CakeTest/app/Controller/PostsController.php(23): Post->modelAjaxSearch(Array)
+#8 [internal function]: PostsController->ajax_search()
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-05 06:02:30 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''nation' WHERE ('name' LIKE '%%') ORDER BY (CASE WHEN 'name' LIKE '' THEN 0 WHEN' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT * FROM '...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT * FROM '...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('SELECT * FROM '...')
+#4 [internal function]: DboSource->query('SELECT * FROM '...')
+#5 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2997): call_user_func_array(Array, Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Model/Post.php(82): Model->query('SELECT * FROM '...')
+#7 /home/sutara/Dropbox/server/CakeTest/app/Controller/PostsController.php(23): Post->modelAjaxSearch(Array)
+#8 [internal function]: PostsController->ajax_search()
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-05 06:03:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''nation' WHERE ('name' LIKE '%%') ORDER BY (CASE WHEN 'name' LIKE '' THEN 0 WHEN' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT * FROM '...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT * FROM '...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('SELECT * FROM '...')
+#4 [internal function]: DboSource->query('SELECT * FROM '...')
+#5 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2997): call_user_func_array(Array, Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Model/Post.php(82): Model->query('SELECT * FROM '...')
+#7 /home/sutara/Dropbox/server/CakeTest/app/Controller/PostsController.php(23): Post->modelAjaxSearch(Array)
+#8 [internal function]: PostsController->ajax_search()
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-05 06:04:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''nation' WHERE ('name' LIKE '%%') ORDER BY (CASE WHEN 'name' LIKE '' THEN 0 WHEN' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT * FROM '...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT * FROM '...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('SELECT * FROM '...')
+#4 [internal function]: DboSource->query('SELECT * FROM '...')
+#5 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2997): call_user_func_array(Array, Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Model/Post.php(82): Model->query('SELECT * FROM '...')
+#7 /home/sutara/Dropbox/server/CakeTest/app/Controller/PostsController.php(23): Post->modelAjaxSearch(Array)
+#8 [internal function]: PostsController->ajax_search()
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-05 13:45:13 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-05 13:45:14 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-05 13:45:45 Error: Fatal Error (1): Call to a member function modelAjaxSearch() on a non-object in [/home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php, line 23]
+2012-07-05 13:45:45 Error: [FatalErrorException] Call to a member function modelAjaxSearch() on a non-object
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/sutara/Dr...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-05 13:45:46 Error: Fatal Error (1): Call to a member function modelAjaxSearch() on a non-object in [/home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php, line 23]
+2012-07-05 13:45:46 Error: [FatalErrorException] Call to a member function modelAjaxSearch() on a non-object
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/sutara/Dr...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-05 13:45:47 Error: Fatal Error (1): Call to a member function modelAjaxSearch() on a non-object in [/home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php, line 23]
+2012-07-05 13:45:47 Error: [FatalErrorException] Call to a member function modelAjaxSearch() on a non-object
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/sutara/Dr...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-05 13:45:48 Error: Fatal Error (1): Call to a member function modelAjaxSearch() on a non-object in [/home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php, line 23]
+2012-07-05 13:45:48 Error: [FatalErrorException] Call to a member function modelAjaxSearch() on a non-object
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/sutara/Dr...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-05 13:45:50 Error: Fatal Error (1): Call to a member function modelAjaxSearch() on a non-object in [/home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php, line 23]
+2012-07-05 13:45:50 Error: [FatalErrorException] Call to a member function modelAjaxSearch() on a non-object
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/sutara/Dr...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-05 13:47:14 Error: Fatal Error (1): Call to a member function modelAjaxSearch() on a non-object in [/home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php, line 23]
+2012-07-05 13:47:14 Error: [FatalErrorException] Call to a member function modelAjaxSearch() on a non-object
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/sutara/Dr...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/sutara/Dr...', 23, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-05 13:48:03 Error: [MissingTableException] Table nations for model Nation was not found in datasource default.
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(3180): Model->setSource('nations')
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2996): Model->getDataSource()
+#2 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(116): Model->query('SELECT * FROM `...')
+#3 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(23): Nation->modelAjaxSearch(Array)
+#4 [internal function]: NationsController->ajax_search()
+#5 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#6 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-07-05 13:48:04 Error: [MissingTableException] Table nations for model Nation was not found in datasource default.
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(3180): Model->setSource('nations')
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2996): Model->getDataSource()
+#2 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(80): Model->query('SELECT * FROM `...')
+#3 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(23): Nation->modelAjaxSearch(Array)
+#4 [internal function]: NationsController->ajax_search()
+#5 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#6 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-07-09 11:37:06 Error: [MissingLayoutException] Layout file "/home/sutara/Dropbox/server/CakeTest/app/View/Layouts/addInputArea.ctp" is missing.
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/View/View.php(513): View->_getLayoutFileName('addInputArea')
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/View/View.php(483): View->renderLayout('', 'addInputArea')
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-10 06:31:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-11 07:08:55 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php, line 27]
+2012-07-11 07:08:55 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 27, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 27, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-11 07:08:59 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php, line 27]
+2012-07-11 07:08:59 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 27, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 27, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-11 07:09:01 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php, line 27]
+2012-07-11 07:09:01 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 27, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 27, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-12 05:03:22 Error: Fatal Error (1): Function name must be a string in [/home/sutara/Dropbox/server/CakeTest/app/View/Nations/compare_time.ctp, line 5]
+2012-07-12 05:03:22 Error: [FatalErrorException] Function name must be a string
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Function name m...', '/home/sutara/Dr...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', '/home/sutara/Dr...', 5, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Function name m...', '/home/sutara/Dr...', 5, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-12 07:57:33 Error: [PDOException] SQLSTATE[HY000]: General error: 26 file is encrypted or is not a database
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(459): PDO->prepare('SELECT name FRO...', Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT name FRO...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT name FRO...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/Database/Sqlite.php(142): DboSource->fetchAll('SELECT name FRO...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(1097): Sqlite->listSources()
+#5 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(3180): Model->setSource('nation')
+#6 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2996): Model->getDataSource()
+#7 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(81): Model->query('SELECT * FROM `...')
+#8 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(54): Nation->modelAjaxSearch(Array)
+#9 [internal function]: NationsController->ajax_search()
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#11 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-07-12 07:58:49 Error: [PDOException] SQLSTATE[HY000]: General error: 26 file is encrypted or is not a database
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(459): PDO->prepare('SELECT name FRO...', Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT name FRO...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT name FRO...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/Database/Sqlite.php(142): DboSource->fetchAll('SELECT name FRO...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(1097): Sqlite->listSources()
+#5 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(3180): Model->setSource('nation')
+#6 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2996): Model->getDataSource()
+#7 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(81): Model->query('SELECT * FROM `...')
+#8 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#9 [internal function]: NationsController->ajax_search()
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#11 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-07-12 08:00:14 Error: [PDOException] SQLSTATE[HY000]: General error: 26 file is encrypted or is not a database
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(459): PDO->prepare('SELECT name FRO...', Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT name FRO...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT name FRO...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/Database/Sqlite.php(142): DboSource->fetchAll('SELECT name FRO...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(1097): Sqlite->listSources()
+#5 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(3180): Model->setSource('nation')
+#6 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2996): Model->getDataSource()
+#7 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(81): Model->query('SELECT * FROM `...')
+#8 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#9 [internal function]: NationsController->ajax_search()
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#11 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-07-15 10:36:27 Error: Fatal Error (4): syntax error, unexpected '[' in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 48]
+2012-07-15 10:36:27 Error: [FatalErrorException] syntax error, unexpected '['
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\MyDocument\M...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\MyDocument\M...', 48, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\MyDocument\M...', 48, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 10:36:39 Error: Fatal Error (4): syntax error, unexpected '[' in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 48]
+2012-07-15 10:36:39 Error: [FatalErrorException] syntax error, unexpected '['
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\MyDocument\M...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\MyDocument\M...', 48, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\MyDocument\M...', 48, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 10:37:27 Error: Fatal Error (4): syntax error, unexpected '[' in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 48]
+2012-07-15 10:37:27 Error: [FatalErrorException] syntax error, unexpected '['
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\MyDocument\M...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\MyDocument\M...', 48, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\MyDocument\M...', 48, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 10:38:56 Error: [PDOException] SQLSTATE[HY000]: General error: 1 near "=": syntax error
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(459): PDO->prepare('SELECT "Nation"...', Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT "Nation"...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT "Nation"...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT "Nation"...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(68): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 10:48:58 Error: Fatal Error (1): Call to undefined function joson_encode() in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 79]
+2012-07-15 10:48:58 Error: [FatalErrorException] Call to undefined function joson_encode()
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\MyDocument\M...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\MyDocument\M...', 79, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\MyDocument\M...', 79, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:03:14 Error: Fatal Error (1): Cannot use object of type Sqlite as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 80]
+2012-07-15 11:03:14 Error: [FatalErrorException] Cannot use object of type Sqlite as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:17:16 Error: Fatal Error (1): Cannot use object of type Sqlite as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 80]
+2012-07-15 11:17:16 Error: [FatalErrorException] Cannot use object of type Sqlite as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:17:51 Error: Fatal Error (1): Cannot use object of type Sqlite as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 80]
+2012-07-15 11:17:51 Error: [FatalErrorException] Cannot use object of type Sqlite as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:21:55 Error: Fatal Error (1): Cannot use object of type Sqlite as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 80]
+2012-07-15 11:21:55 Error: [FatalErrorException] Cannot use object of type Sqlite as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:21:56 Error: Fatal Error (1): Cannot use object of type Sqlite as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 80]
+2012-07-15 11:21:56 Error: [FatalErrorException] Cannot use object of type Sqlite as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:23:58 Error: Fatal Error (1): Cannot use object of type Sqlite as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 80]
+2012-07-15 11:23:58 Error: [FatalErrorException] Cannot use object of type Sqlite as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 80, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:26:15 Error: Fatal Error (1): Undefined class constant 'config' in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 80]
+2012-07-15 11:26:15 Error: [FatalErrorException] Undefined class constant 'config'
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Undefined class...', 'D:\MyDocument\M...', 80)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', 'D:\MyDocument\M...', 80, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', 'D:\MyDocument\M...', 80, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:27:35 Error: Fatal Error (1): Cannot use object of type DATABASE_CONFIG as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 81]
+2012-07-15 11:27:35 Error: [FatalErrorException] Cannot use object of type DATABASE_CONFIG as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 81, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 81, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:29:28 Error: Fatal Error (1): Cannot use object of type DATABASE_CONFIG as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 81]
+2012-07-15 11:29:28 Error: [FatalErrorException] Cannot use object of type DATABASE_CONFIG as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 81, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 81, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:43:12 Error: Fatal Error (1): Cannot use object of type DATABASE_CONFIG as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 8]
+2012-07-15 11:43:12 Error: [FatalErrorException] Cannot use object of type DATABASE_CONFIG as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 8, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 8, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:43:15 Error: Fatal Error (1): Cannot use object of type DATABASE_CONFIG as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 8]
+2012-07-15 11:43:15 Error: [FatalErrorException] Cannot use object of type DATABASE_CONFIG as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 8, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 8, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:43:49 Error: Fatal Error (1): Cannot use object of type DATABASE_CONFIG as array in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 8]
+2012-07-15 11:43:49 Error: [FatalErrorException] Cannot use object of type DATABASE_CONFIG as array
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'D:\MyDocument\M...', 8, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'D:\MyDocument\M...', 8, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:52:06 Error: Fatal Error (1): Call to undefined function escapeForDB() in [D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php, line 24]
+2012-07-15 11:52:06 Error: [FatalErrorException] Call to undefined function escapeForDB()
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\MyDocument\M...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\MyDocument\M...', 24, Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\MyDocument\M...', 24, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 11:53:25 Error: [MissingTableException] Table nation for model Nation was not found in datasource default.
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(3180): Model->setSource('nation')
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(80): Model->find('all', Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#4 [internal function]: NationsController->ajax_search()
+#5 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#8 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-07-15 11:55:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ASC' in 'order clause'
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(80): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 11:58:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ASC' in 'order clause'
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(71): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 12:01:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'order clause'
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(71): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 14:37:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ja'%' THEN 1 WHEN name LIKE '%ja'%' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(56): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 14:56:37 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'%' THEN 1 WHEN name LIKE '%\'%' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(71): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 14:57:09 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'%%' THEN 1 WHEN name LIKE '%\'%%' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(71): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 14:58:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\%' THEN 1 WHEN name LIKE '%\\%' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(71): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 15:10:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'%' THEN 1 WHEN name LIKE '%\'%' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(72): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 15:10:39 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'%' THEN 1 WHEN name LIKE '%\'%' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(72): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 15:11:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'%' THEN 1 WHEN name LIKE '%\'%' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(72): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 15:13:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'%' THEN 1 WHEN name LIKE '%\'%' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(72): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 15:14:43 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbb%' THEN 0 WHEN name LIKE '\'bbb\\%%' THEN 1 WHEN name LIKE '%\'bbb\\%%' THEN ' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(72): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 15:15:27 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:15:27 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:15:27 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:15:27 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:15:27 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:15:27 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:15:53 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:15:53 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:15:53 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:15:53 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:15:53 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:15:53 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:16:33 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:16:33 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:16:33 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:16:33 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:17:52 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:17:52 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:17:52 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:17:52 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:18:14 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:18:14 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:19:07 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:19:07 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:19:08 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:19:08 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:19:44 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:19:44 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:21:15 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:21:15 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:21:15 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:21:15 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:23:24 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:23:24 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:23:24 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:23:24 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:23:24 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:23:24 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:23:25 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:23:25 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:25:15 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:25:15 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:25:15 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:25:15 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:28:25 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:28:25 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:28:25 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:28:25 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:29:02 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:29:02 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:29:02 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:29:02 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:29:02 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:29:02 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:29:47 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:29:47 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:29:47 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:29:47 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:29:47 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:29:47 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:31:04 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 29]
+2012-07-15 15:31:04 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:31:04 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 29]
+2012-07-15 15:31:04 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:32:24 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:32:24 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:32:29 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:32:29 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:32:37 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:32:37 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:32:37 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 28]
+2012-07-15 15:32:37 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 28, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:33:12 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 29]
+2012-07-15 15:33:12 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:33:12 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 29]
+2012-07-15 15:33:12 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:36:39 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 32]
+2012-07-15 15:36:39 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 32, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 32, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:36:39 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 32]
+2012-07-15 15:36:39 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 32, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 32, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:36:39 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 32]
+2012-07-15 15:36:39 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 32, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 32, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:39:09 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 29]
+2012-07-15 15:39:09 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 15:40:07 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 29]
+2012-07-15 15:40:07 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE or '$'
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 29, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 16:07:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELSE 1 END) ASC' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(86): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 16:07:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELSE 1 END) ASC' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(86): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 16:09:37 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL' at line 1
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 /home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php(112): Model->find('all', Array)
+#6 /home/sutara/Dropbox/server/CakeTest/app/Controller/NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:01:33 Error: [PDOException] SQLSTATE[HY000]: General error: 1 unrecognized token: "1WHEN"
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(459): PDO->prepare('SELECT "Nation"...', Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT "Nation"...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT "Nation"...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT "Nation"...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(73): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:01:47 Error: [PDOException] SQLSTATE[HY000]: General error: 1 unrecognized token: "1WHEN"
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(459): PDO->prepare('SELECT "Nation"...', Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT "Nation"...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT "Nation"...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT "Nation"...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(73): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:01:48 Error: [PDOException] SQLSTATE[HY000]: General error: 1 unrecognized token: "1WHEN"
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(459): PDO->prepare('SELECT "Nation"...', Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT "Nation"...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT "Nation"...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT "Nation"...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(73): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:02:27 Error: [PDOException] SQLSTATE[HY000]: General error: 1 unrecognized token: "1WHEN"
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(459): PDO->prepare('SELECT "Nation"...', Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT "Nation"...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT "Nation"...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT "Nation"...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(73): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:04:02 Error: [PDOException] SQLSTATE[HY000]: General error: 1 unrecognized token: "1WHEN"
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(459): PDO->prepare('SELECT "Nation"...', Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT "Nation"...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT "Nation"...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT "Nation"...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(73): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:06:28 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\'%'  THEN 1 WHEN `name` LIKE '%\\'%'  THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(77): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:07:46 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%%' ESCAPE '\' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(80): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:07:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%%' ESCAPE '\' THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(80): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:13:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\'%'  THEN 1 WHEN `name` LIKE '%\\'%'  THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(77): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:13:13 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\\\' THEN 0 WHEN `name` LIKE '\\'\\\\%'  THEN 1 WHEN `name` LIKE '%\\'\\\\%'  T' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(77): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:13:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\\\\%' THEN 0 WHEN `name` LIKE '\\'\\\\\%%'  THEN 1 WHEN `name` LIKE '%\\'\\\\\' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(77): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:28:09 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\'%'  THEN 1 WHEN `name` LIKE '%\\'%'  THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(87): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(50): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:31:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\'%'  THEN 1 WHEN `name` LIKE '%\\'%'  THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(87): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(15): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->index2()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 09:32:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\'%'  THEN 1 WHEN `name` LIKE '%\\'%'  THEN 2 ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(87): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(15): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->index2()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 10:25:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'escape '\' ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(85): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(27): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-16 10:25:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'escape '\' ELSE 3 END) ASC  LIMIT 10' at line 1
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Nation`...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Nation`...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Nation`...', false)
+#4 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Nation), Array)
+#5 D:\MyDocument\My Dropbox\server\CakeTest\app\Model\Nation.php(85): Model->find('all', Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(27): Nation->modelAjaxSearch(Array)
+#7 [internal function]: NationsController->ajax_search()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-17 08:19:10 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Nation.id
+#0 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(459): PDO->prepare('SELECT "Nation"...', Array)
+#1 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT "Nation"...', Array)
+#2 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT "Nation"...', Array, Array)
+#3 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT "Nation"...')
+#4 [internal function]: DboSource->query('SELECT "Nation"...')
+#5 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Model\Model.php(2997): call_user_func_array(Array, Array)
+#6 D:\MyDocument\My Dropbox\server\CakeTest\app\Controller\NationsController.php(15): Model->query('SELECT "Nation"...')
+#7 [internal function]: NationsController->index2()
+#8 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NationsController), Array)
+#9 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\MyDocument\My Dropbox\server\CakeTest\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\MyDocument\My Dropbox\server\CakeTest\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-15 06:50:17 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 /home/sutara/Dropbox/server/CakeTest/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 09:57:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 91]
+2012-08-15 09:57:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/sutara/Dr...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/sutara/Dr...', 91, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/sutara/Dr...', 91, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-15 10:11:57 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 76]
+2012-08-15 10:11:57 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 76)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 76, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 76, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-15 10:11:57 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 76]
+2012-08-15 10:11:57 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 76)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 76, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 76, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-15 10:40:56 Error: Fatal Error (4): syntax error, unexpected T_ELSE, expecting T_FUNCTION in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 108]
+2012-08-15 10:40:56 Error: [FatalErrorException] syntax error, unexpected T_ELSE, expecting T_FUNCTION
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-15 10:40:56 Error: Fatal Error (4): syntax error, unexpected T_ELSE, expecting T_FUNCTION in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 108]
+2012-08-15 10:40:56 Error: [FatalErrorException] syntax error, unexpected T_ELSE, expecting T_FUNCTION
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-15 10:41:41 Error: Fatal Error (4): syntax error, unexpected T_ELSE, expecting T_FUNCTION in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 108]
+2012-08-15 10:41:41 Error: [FatalErrorException] syntax error, unexpected T_ELSE, expecting T_FUNCTION
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-15 10:41:41 Error: Fatal Error (4): syntax error, unexpected T_ELSE, expecting T_FUNCTION in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 108]
+2012-08-15 10:41:41 Error: [FatalErrorException] syntax error, unexpected T_ELSE, expecting T_FUNCTION
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-15 10:41:46 Error: Fatal Error (4): syntax error, unexpected T_ELSE, expecting T_FUNCTION in [/home/sutara/Dropbox/server/CakeTest/app/Model/Nation.php, line 108]
+2012-08-15 10:41:46 Error: [FatalErrorException] syntax error, unexpected T_ELSE, expecting T_FUNCTION
+#0 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#2 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 108, Array)
+#3 /home/sutara/Dropbox/server/CakeTest/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
