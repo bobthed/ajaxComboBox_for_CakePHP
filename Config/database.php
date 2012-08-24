@@ -1,5 +1,6 @@
 <?php
 class DATABASE_CONFIG {
+
 	//MySQL
 	public $default = array(
 		'datasource' => 'Database/Mysql',
@@ -11,4 +12,11 @@ class DATABASE_CONFIG {
 		'prefix'     => '',
 		'encoding'   => 'utf8'
 	);
+	/*
+	//SQLite Local
+	public $default = array(
+		'datasource' => 'Database/Sqlite',
+		'database' => '../sqlite3/sample.sqlite3'
+	);
+	*/
 }
