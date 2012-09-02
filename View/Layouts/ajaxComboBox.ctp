@@ -5,7 +5,7 @@
 		<?php
 			echo $this->Html->css('jquery.ajaxComboBox');
 			echo $this->Html->script('http://code.jquery.com/jquery.min.js');
-			echo $this->Html->script('jquery.ajaxComboBox.5.8');
+			echo $this->Html->script('jquery.ajaxComboBox.5.9');
 		?>
 		<script type="text/javascript">
 			jQuery(document).ready(function($){
