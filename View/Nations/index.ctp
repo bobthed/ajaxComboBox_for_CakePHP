@@ -1,6 +1,6 @@
 <h1>ajaxComboBox6.1 + CakePHP 2.2.2</h1>
 <?php
-	echo $this->Form->create('index');
+	echo $this->Form->create('index', array('url'=>'index'));
 	echo $this->Form->label('tags', 'Combo-Box (Nations)', array('for'=>'acbox_test'));
 	echo $this->Form->text('search', array('id' => 'acbox_test'));
 	echo $this->Form->label('tags', 'Text Area', array('for'=>'acbox_test2'));

@@ -3,15 +3,14 @@ class Nation extends AppModel {
 	//==============================================================
 	//Please change following variables.
 	//--------------------------------------------------------------
+	var $bitly_usr = 'sutaralumpur';
+	var $bitly_key = 'R_78cdcab8506ce7c79d7634373b1ebec9';
 	//var $bitly_usr = 'username';
 	//var $bitly_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 	//==============================================================
-
-	public $name = 'Nation';
 	public $useTable = 'nation';
 	/*
-bitly
-	Methods(2012-09-01)
+	Methods(2012-09-08)
 		shortenByBitly       Connect to bit.ly
 		modelAjaxSearch      Root of Ajax search
 		escapeAlongDB        Escape the all elements of array
@@ -31,7 +30,10 @@ bitly
 		$result  = array();
 
 		//可変長オブジェクトを引数に採っている
-		foreach ($_GET as $url) {
+		foreach ($_GET as $key => $url) {
+			//CakePHP用の処理
+			if (!preg_match('/^p_\d+$/', $key)) continue;
+			
 			if (!is_string($url)) die();
 	
 			$req  = 'http://api.bit.ly/shorten?version=2.0.1';
