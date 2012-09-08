@@ -5,20 +5,47 @@
 		<?php
 			echo $this->Html->css('jquery.ajaxComboBox');
 			echo $this->Html->script('http://code.jquery.com/jquery.min.js');
-			echo $this->Html->script('jquery.ajaxComboBox.5.9');
+			echo $this->Html->script('jquery.ajaxComboBox.6.1');
 		?>
 		<script type="text/javascript">
+			var webroot = '<?php echo $this->webroot ?>';
+
 			jQuery(document).ready(function($){
+				//Combo-Box
 				$('#acbox_test').ajaxComboBox(
-					'<?php echo $this->webroot ?>nations/ajax_search',
+					webroot + 'nations/ajax_search',
 					{
 						lang        : 'en',
 						db_table    : 'nation',
 						field       : 'name',
-						init_record : <?php echo $init_record ?>,
 						primary_key : 'id',
 						select_only : true,
-						button_img  : '<?php echo $this->webroot ?>img/jquery.ajaxComboBox.button.png'
+						button_img  : webroot + 'img/jquery.ajaxComboBox.button.png'
+					}
+				);
+				//Text Area
+				$('#acbox_test2').ajaxComboBox(
+					webroot + 'nations/ajax_search',
+					{
+						lang        : 'en',
+						plugin_type : 'textarea',
+						db_table    : 'tag',
+						shorten_url : '#acbox_test2_shorten',
+						shorten_src : webroot + 'nations/shorten_url',
+						shorten_min : 20,
+						tags        : [
+							{
+								pattern  : ['[', ']'],
+								space    : [false, false]
+							},
+							{
+								pattern  : ['#', '']
+
+							},
+							{
+								pattern  : ['@', '']
+							}
+						],
 					}
 				);
 			});

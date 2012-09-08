@@ -1,11 +1,13 @@
-	Name       : ajaxComboBox for CakePHP
-	Version    : 1.2
-	Update     : 2012-09-02
-	Author     : Yuusaku Miyazaki (宮崎 雄策) (toumin.m7@gmail.com)
-	Author-URI : http://d.hatena.ne.jp/sutara_lumpur/20090124/1232781879
-	License    : MIT License (http://www.opensource.org/licenses/mit-license.php)
+##################################################
+Name       : ajaxComboBox for CakePHP
+Version    : ajaxComboBox6.1 + CakePHP2.2.2
+Update     : 2012-09-08
+Author     : Yuusaku Miyazaki (宮崎 雄策) (toumin.m7@gmail.com)
+Author-URI : http://d.hatena.ne.jp/sutara_lumpur/20090124/1232781879
+License    : MIT License (http://www.opensource.org/licenses/mit-license.php)
+##################################################
 
-
-	Import "acbox.sql" into your MySQL.
-	Rewrite "database.php".
-	Access to "(CakePHP)/nations/index".
+Import "acbox.sql" into your MySQL.
+Rewrite "database.php".
+Rewrite infomation for "bit.ly" on "Nation.php (Model)".
+Access to "(CakePHP)/nations/index".

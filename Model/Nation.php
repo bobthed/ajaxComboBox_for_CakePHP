@@ -1,10 +1,18 @@
 <?php
 class Nation extends AppModel {
+	//==============================================================
+	//Please change following variables.
+	//--------------------------------------------------------------
+	//var $bitly_usr = 'username';
+	//var $bitly_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+	//==============================================================
+
 	public $name = 'Nation';
 	public $useTable = 'nation';
-
 	/*
+bitly
 	Methods(2012-09-01)
+		shortenByBitly       Connect to bit.ly
 		modelAjaxSearch      Root of Ajax search
 		escapeAlongDB        Escape the all elements of array
 		escapeStr            Escape along database
@@ -15,6 +23,30 @@ class Nation extends AppModel {
 		setQuerySearchAll    Get all records
 		setQuerySearchWords  Search by words
 	*/
+	//****************************************************
+	//Connect ot bit.ly
+	//****************************************************
+	function shortenByBitly() {
+		//JavaScriptへ返す配列を準備
+		$result  = array();
+
+		//可変長オブジェクトを引数に採っている
+		foreach ($_GET as $url) {
+			if (!is_string($url)) die();
+	
+			$req  = 'http://api.bit.ly/shorten?version=2.0.1';
+			$req .= "&login={$this->bitly_usr}";
+			$req .= "&apiKey={$this->bitly_key}";
+			$req .= '&longUrl='.rawurlencode($url);
+
+			$contents = file_get_contents($req);
+			if(isset($contents)) {
+				$bitly = json_decode($contents, true);
+			}
+			$result[] = $bitly['results'][$url]['shortUrl'];
+		}
+		return json_encode($result);
+	}
 	//****************************************************
 	//Root of Ajax search
 	//****************************************************
@@ -221,7 +253,7 @@ class Nation extends AppModel {
 		}
 		$cnt++;
 
-		$clear['orderby'] = $str . "ELSE $cnt END), {$clear['order_by']}";
+		$clear['order'] = $str . "ELSE $cnt END), {$clear['order_by']}";
 	
 		//----------------------------------------------------
 		// OFFSET
@@ -239,7 +271,7 @@ class Nation extends AppModel {
 				$quoted_t,
 				$this->quoteAlongDB($this->name, $type_db),
 				$clear['where'],
-				$clear['orderby'],
+				$clear['order'],
 				$clear['per_page'],
 				$clear['offset']		
 			),

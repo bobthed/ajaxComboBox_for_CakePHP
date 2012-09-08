@@ -1679,3 +1679,34 @@
 #11 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
 #12 /home/sutara/Dropbox/server/CakeAcbox/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2012-09-08 06:50:16 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/home/sutara/Dropbox/server/CakeAcbox/app/View/Nations/index.ctp, line 18]
+2012-09-08 06:50:16 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 18, Array)
+#2 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 18, Array)
+#3 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-08 07:22:04 Error: [MissingViewException] View file "/home/sutara/Dropbox/server/CakeAcbox/app/View/Nations/shorten_url.ctp" is missing.
+#0 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(NationsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/sutara/Dropbox/server/CakeAcbox/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-08 07:37:09 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/sutara/Dropbox/server/CakeAcbox/app/Controller/NationsController.php, line 8]
+2012-09-08 07:37:09 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 8, Array)
+#2 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 8, Array)
+#3 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-08 07:37:20 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/sutara/Dropbox/server/CakeAcbox/app/Controller/NationsController.php, line 8]
+2012-09-08 07:37:20 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/sutara/Dr...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/sutara/Dr...', 8, Array)
+#2 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/sutara/Dr...', 8, Array)
+#3 /home/sutara/Dropbox/server/CakeAcbox/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
