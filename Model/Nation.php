@@ -3,8 +3,6 @@ class Nation extends AppModel {
 	//==============================================================
 	//Please change following variables.
 	//--------------------------------------------------------------
-	var $bitly_usr = 'sutaralumpur';
-	var $bitly_key = 'R_78cdcab8506ce7c79d7634373b1ebec9';
 	//var $bitly_usr = 'username';
 	//var $bitly_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 	//==============================================================
