@@ -9,6 +9,7 @@
 		?>
 		<script type="text/javascript">
 			var webroot = '<?php echo $this->webroot ?>';
+			var init_record = '<?php echo $init_record ?>';
 
 			jQuery(document).ready(function($){
 				//Combo-Box
@@ -19,6 +20,7 @@
 						db_table    : 'nation',
 						field       : 'name',
 						primary_key : 'id',
+						init_record : init_record,
 						select_only : true,
 						button_img  : webroot + 'img/jquery.ajaxComboBox.button.png'
 					}

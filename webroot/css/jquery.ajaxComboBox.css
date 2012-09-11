@@ -1,17 +1,16 @@
 /*
+(2012-09-09)
+
 Contents
-============================================================
-ComboBox
 	Container
+	"Get all" button
 	Results
 	Navi
 	Sub-info
 	Select only
-	
-Simple
-============================================================
+	Simple
+	Text Area
 */
-
 /**************************************
  Container
 **************************************/
@@ -42,6 +41,9 @@ Simple
 .ac_container_open .ac_input{
 	border-radius : 4px 0px 0px 0px !important;
 }
+/**************************************
+ "Get all" button
+**************************************/
 .ac_button{
 	border : 1px solid #79b;
 	width : 32px;
@@ -87,10 +89,6 @@ Simple
 /**************************************
  Results
 **************************************/
-.ac_selected {
-	background-color:#def;
-	font-weight:bold;
-}
 .ac_result_area {
 	background-color : transparent;
 	margin : 0;
@@ -124,18 +122,28 @@ Simple
 	line-height : 1;
 	position : relative;
 }
+.ac_selected {
+	background-color:#def;
+	font-weight:bold;
+}
 .ac_over{
 	cursor : pointer;
 	background-color : #36c;
 	color : #fff !important;
 }
-.ac_match{
-	text-decoration : underline;
+/*-------------------------------------
+ 選択してないほうの表示を暗くする
+-------------------------------------*/
+.ac_results_off {
+	background:rgba(255, 255, 255, 0.8);
 }
-.ac_over .ac_match{
-	text-decoration : none;
+.ac_input_off {
+	background: #eee;
+	color:#555;
 }
-
+.ac_hide {
+	display:none;
+}
 /**************************************
  Navi
 **************************************/
@@ -186,7 +194,6 @@ Simple
 	margin:0px !important;
 	padding:0px !important;
 }
-
 /**************************************
  Sub-info
 **************************************/
@@ -246,10 +253,9 @@ Simple
 .ac_container .ac_select_ng{
 	background : #fcc;
 }
-
-/*=====================================
+/**************************************
  Simple
--------------------------------------*/
+**************************************/
 .ac_s_input {
 	border : 1px solid #79b;
 	background-color : white;
@@ -268,10 +274,9 @@ Simple
 .ac_container_open .ac_s_input{
 	border-radius : 4px 4px 0px 0px !important;
 }
-
-/*=====================================
- TextArea
--------------------------------------*/
+/**************************************
+ Text Area
+**************************************/
 .ac_textarea {
 	border : 1px solid #79b;
 	background-color : white;
@@ -284,21 +289,3 @@ Simple
 	box-shadow : 1px 1px 1px rgba(0,0,0,0.2) inset;
 	-webkit-box-shadow : 1px 1px 1px rgba(0,0,0,0.2) inset;
 }
-/*-------------------------------------
- 選択してないほうの表示を暗くする
--------------------------------------*/
-.ac_results_off {
-	background:rgba(255, 255, 255, 0.8);
-}
-.ac_input_off {
-	background: #eee;
-	color:#555;
-}
-.ac_hide {
-	display:none;
-}
-
-
-
-
-

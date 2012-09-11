@@ -5,6 +5,8 @@ class NationsController extends AppController {
 		if (isset($this->params['data']['index'])) {
 			$this->set('result', ($this->params['data']['index']));
 		}
+		//The initial value of ComboBox. (Japan)
+		$this->set('init_record', 28);
 	}
 	public function ajax_search() {
 		$this->layout = 'ajax';

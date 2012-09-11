@@ -8,7 +8,7 @@ class Nation extends AppModel {
 	//==============================================================
 	public $useTable = 'nation';
 	/*
-	Methods(2012-09-08)
+	Methods(2012-09-11)
 		shortenByBitly       Connect to bit.ly
 		modelAjaxSearch      Root of Ajax search
 		escapeAlongDB        Escape the all elements of array
@@ -54,24 +54,28 @@ class Nation extends AppModel {
 		//Check the type of database.
 		$type_db = (preg_match(
 			'/sqlite/i',
-			ConnectionManager::$config->{$this->useDbConfig}['datasource']
+			$this->getDatasource($this->useDbConfig)->config['datasource']
 		)) ? 'sqlite' : 'mysql';
 
 		//Escape all params
 		$clear = $this->escapeAlongDB($not_escaped, $type_db);
-		
-		$clear['quoted_sf'] = $this->quoteSearchField($clear['search_field'], $type_db);
+
+		if (array_key_exists('search_field', $clear)){
+			$clear['quoted_sf'] = $this->quoteSearchField($clear['search_field'], $type_db);
+		}
 
 		//insert "ESCAPE '\'" if SQLite3
 		$clear['esc'] = ($type_db == 'sqlite') ? "ESCAPE '\'" : '';
 
 		//CASE WHEN 以降の並べ替えの条件
-		$clear['order_by'] = $this->quoteOrderby($clear['order_by'], $type_db);
+		if (array_key_exists('order_by', $clear)){
+			$clear['order_by'] = $this->quoteOrderby($clear['order_by'], $type_db);
+		}
 
 		//Use all of fields instead of "*"
 		$clear['asterisk'] = $this->setAsterisk($type_db);
 
-		if (isset($clear['page_num'])) {
+		if (array_key_exists('page_num', $clear) && isset($clear['page_num'])) {
 			if ($clear['q_word'][0] == '') {
 				$queries = $this->setQuerySearchAll($clear, $type_db);
 			} else {
