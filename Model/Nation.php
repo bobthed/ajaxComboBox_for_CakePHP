@@ -3,6 +3,8 @@ class Nation extends AppModel {
 	//==============================================================
 	//Please change following variables.
 	//--------------------------------------------------------------
+var $bitly_usr = 'sutaralumpur';
+var $bitly_key = 'R_78cdcab8506ce7c79d7634373b1ebec9';
 	//var $bitly_usr = 'username';
 	//var $bitly_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 	//==============================================================
@@ -23,12 +25,12 @@ class Nation extends AppModel {
 	//****************************************************
 	//Connect ot bit.ly
 	//****************************************************
-	function shortenByBitly() {
+	function shortenByBitly($params) {
 		//JavaScriptへ返す配列を準備
 		$result  = array();
 
 		//可変長オブジェクトを引数に採っている
-		foreach ($_GET as $key => $url) {
+		foreach ($params as $key => $url) {
 			//CakePHP用の処理
 			if (!preg_match('/^p_\d+$/', $key)) continue;
 			
@@ -184,7 +186,8 @@ class Nation extends AppModel {
 			//--------------------
 			// SQLite3
 			//--------------------
-			$path = ConnectionManager::$config->{$this->useDbConfig}['database'];
+//			$path = ConnectionManager::$config->{$this->useDbConfig}['database'];
+			$path = $this->getDatasource($this->useDbConfig)->config['database'];
 			$db = new SQLite3($path);
 			$rows = $db->query("PRAGMA table_info(\"{$this->useTable}\")");
 			$return = array();
